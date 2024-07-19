@@ -11,7 +11,7 @@ body {
   transition-duration: 0.5s;
 }
 .link:hover{
-  background: #e0e0e0;
+  background: #e2e8f0;
   color: #1a1a1a;
 }
 
@@ -39,7 +39,6 @@ body {
   opacity: 0;
 }
 
-
 .btn{
   background-color: #08808e;
   color: #e2e2e2;
@@ -49,11 +48,38 @@ body {
   background-color: #007986;
 }
 
+.btncat{
+  background-color: transparent;
+  color: #e2e2e2;
+  border: 2px solid #08808e;
+  transition-duration: 0.5s;
+}
+.btncat:hover{
+  background-color: #08808e;
+  color: #e2e2e2;
+}
+.btnbuy{
+  background-color: #e2e2e2;
+  color: #08808e;
+  transition-duration: 0.5s;
+}
+
 .imgcard{
   background-color: #08808e;
 }
 .slow-scale {
   transition-duration: 0.5s;
+}
+
+.rating{
+  color: #e2e2e2;
+  transition-duration: 0.5s;
+}
+
+.input{
+  background-color: transparent;
+  border: 2px solid #08808e;
+  color: #e2e2e2;
 }
 
 ::-webkit-scrollbar {

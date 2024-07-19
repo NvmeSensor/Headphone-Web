@@ -6,7 +6,7 @@ const NewProduct = () => {
     <section className='flex justify-center items-center w-full py-16'>
       <div className='lg:grid lg:grid-cols-2 flex flex-col-reverse items-center justify-center gap-5 w-[90vw] lg:w-[75vw]'>
         <div className='flex flex-col justify-center items-center gap-5'>
-          <h1 className='text-4xl font-semibold self-start'>
+          <h1 className='text-3xl lg:text-4xl font-semibold self-start'>
             The Latest Headphones With <br/> The Latest Technology
           </h1>
           <h2 className='text-xl font-medium self-start'>
