@@ -3,7 +3,7 @@ body {
   background: radial-gradient(circle, #212121, #1a1a1a);
 }
 
-.navbar , .footer {
+.navbar , .footer , .filter , .product {
   background: radial-gradient(circle, #212121, #1a1a1a);
 }
 .link{
@@ -15,7 +15,7 @@ body {
   color: #1a1a1a;
 }
 
-.hero {
+.hero, .cardbody {
   background: radial-gradient(circle, #313131, #1a1a1a);
 }
 

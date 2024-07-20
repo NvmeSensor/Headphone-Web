@@ -1,8 +1,7 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import NewProduct from '@/components/NewProduct'
-import Categories from '@/components/Categories'
-import NewsLetter from '@/components/Newsletter'
+import Hero from '../components/Home/Hero'
+import NewProduct from '@/components/Home/NewProduct'
+import Categories from '@/components/Home/Categories'
 
 const Home = () => {
   return (
@@ -10,7 +9,6 @@ const Home = () => {
       <Hero />
       <NewProduct />
       <Categories />
-      {/* <NewsLetter /> */}
     </section>
   )
 }

@@ -23,8 +23,8 @@ const Navbar = () => {
       url: "/",
     },
     {
-      name: "New",
-      url: "/new",
+      name: "Store",
+      url: "/store",
     },
     {
       name: "Category",
