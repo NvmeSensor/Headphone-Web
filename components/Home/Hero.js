@@ -35,7 +35,7 @@ const Hero = () => {
           <h2 className='text-xl font-medium self-start'>
             Get the experience of listening to music more to the fun and exciting
           </h2>
-          <button className='px-6 py-3 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn'>
+          <button className='px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn'>
             Shop Now
           </button>
           <div className='flex flex-wrap justify-start items-center gap-5 w-full'>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalf } from "react-icons/fa";
+import Link from "next/link";
 
 const Categories = () => {
   
@@ -40,14 +41,14 @@ const Categories = () => {
                   <FaStar className="transition-transform transform hover:scale-110 rating"/>
                   <FaStarHalf className="transition-transform transform hover:scale-110 rating"/>
                 </div>
-                <button className="px-6 py-3 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btnbuy">
+                <Link href="" className="px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btnbuy">
                   Buy Now
-                </button>
+                </Link>
               </div>
             </div>
-          <button className="px-6 py-3 font-semibold text-xl rounded-lg border-0 text-center transition-transform transform hover:scale-110 btncat">
+          <Link href="/store" className="px-5 py-2 font-semibold text-xl rounded-lg border-0 text-center transition-transform transform hover:scale-110 btncat">
                   View More
-                </button>
+                </Link>
       </div>
     </section>
   );

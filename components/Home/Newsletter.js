@@ -12,8 +12,8 @@ const NewsLetter = () => {
         </div>
         <div className='flex justify-center items-center w-full'>
           <form className='flex flex-wrap justify-center items-center w-full gap-3'>
-            <input type="text " placeholder="Enter your preferred headphone" className="px-6 py-3 font-semibold text-xl rounded-lg outline-none input"/>
-            <button className="px-6 py-3 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn">Send</button>
+            <input type="text " placeholder="Enter your preferred headphone" className="px-5 py-2 font-semibold text-xl rounded-lg outline-none input"/>
+            <button className="px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn">Send</button>
           </form>
         </div>
       </div>

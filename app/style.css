@@ -19,6 +19,11 @@ body {
   background: radial-gradient(circle, #313131, #1a1a1a);
 }
 
+.store{
+  background: radial-gradient(circle, #313131, #1a1a1a);
+  background-attachment: fixed;
+}
+
 .gradient-text {
   background: linear-gradient(90deg, #e0e0e0, #08808e);
   -webkit-background-clip: text;

@@ -19,10 +19,10 @@ const Store = () => {
   );
 
   return (
-    <section className="flex flex-col justify-between min-h-screen w-full py-10 hero">
+    <section className="flex flex-col justify-between min-h-screen w-full py-10 store">
       <div className="flex justify-center items-start w-full">
         <div className="grid grid-cols-1 lg:grid-cols-4 items-start justify-center gap-5 w-[90vw] lg:w-[75vw] mt-5">
-          <div className="col-span-1 flex flex-col justify-start items-center gap-3 p-4 rounded-xl filter lg:sticky lg:top-3">
+          <div className="col-span-1 flex flex-col justify-start items-center gap-3 p-4 rounded-xl filter lg:sticky lg:top-5">
             <h1 className="text-xl font-medium self-start">Filter</h1>
             <div className="flex flex-col justify-start items-start gap-2 self-start">
               {Categories.map((category, index) => (
@@ -39,25 +39,25 @@ const Store = () => {
               ))}
             </div>
           </div>
-          <div className="lg:col-span-3 flex justify-center items-center p-4 rounded-xl product">
+          <div className="lg:col-span-3 flex justify-center items-center rounded-xl">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-center items-center gap-4">
               {filteredProducts.map((product, index) => (
-                <div key={index} className="flex flex-col justify-center items-center gap-2 p-3 rounded-lg cardbody">
-                  <div>
+                <div key={index} className="flex flex-col justify-center items-stretch gap-2 p-3 rounded-lg h-full product">
+                  <div className="flex justify-center items-center w-full">
                     <img
                       src={product.img}
                       alt="hero"
-                      className="h-[200px] w-auto transition-transform transform hover:scale-110 slow-scale"
+                      className="h-[200px] w-auto transition-transform transform hover:scale-110 slow-scale mt-0"
                     />
                   </div>
-                  <div className="flex flex-col justify-center items-center gap-2 p-2">
+                  <div className="flex flex-col justify-center items-center gap-2 p-2 my-auto">
                     <h1 className="text-2xl font-semibold self-start">{product.name}</h1>
                     <p className="text-md font-medium">{product.desc}</p>
                     <p className="text-2xl font-medium self-start">{product.price}</p>
-                    <button className="px-6 py-3 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn">
+                  </div>
+                    <button className="px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn mb-0">
                       Buy Now
                     </button>
-                  </div>
                 </div>
               ))}
             </div>
