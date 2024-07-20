@@ -7,7 +7,7 @@ const Hero = () => {
       image: '/headphone3.png',
     },
     {
-      image: '/headphone.png',
+      image: '/headphone4.png',
     },
     {
       image: '/headphone5.png',

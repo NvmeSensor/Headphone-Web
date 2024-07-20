@@ -3,7 +3,7 @@ body {
   background: radial-gradient(circle, #212121, #1a1a1a);
 }
 
-.navbar {
+.navbar , .footer {
   background: radial-gradient(circle, #212121, #1a1a1a);
 }
 .link{
