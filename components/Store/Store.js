@@ -26,7 +26,7 @@ const Store = () => {
             <h1 className="text-xl font-medium self-start">Filter</h1>
             <div className="flex flex-col justify-start items-start gap-2 self-start">
               {Categories.map((category, index) => (
-                <div key={index} className="text-lg flex gap-2">
+                <div key={index} className="text-lg font-medium flex gap-2">
                   <input
                     type="checkbox"
                     id={category.name}
@@ -40,7 +40,7 @@ const Store = () => {
             </div>
           </div>
           <div className="lg:col-span-3 flex justify-center items-center rounded-xl">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-center items-center gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 justify-center items-center gap-4">
               {filteredProducts.map((product, index) => (
                 <div key={index} className="flex flex-col justify-center items-stretch gap-2 p-3 rounded-lg h-full product">
                   <div className="flex justify-center items-center w-full">
@@ -51,11 +51,11 @@ const Store = () => {
                     />
                   </div>
                   <div className="flex flex-col justify-center items-center gap-2 p-2 my-auto">
-                    <h1 className="text-2xl font-semibold self-start">{product.name}</h1>
-                    <p className="text-md font-medium">{product.desc}</p>
-                    <p className="text-2xl font-medium self-start">{product.price}</p>
+                    <h1 className="text-xl font-semibold self-start">{product.name}</h1>
+                    <p className="text-lg font-medium self-start">{product.desc}</p>
+                    <p className="text-xl font-medium self-start">{product.price}</p>
                   </div>
-                    <button className="px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn mb-0">
+                    <button className="px-5 py-2 font-medium text-lg rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn mb-0">
                       Buy Now
                     </button>
                 </div>

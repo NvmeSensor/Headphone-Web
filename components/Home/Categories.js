@@ -30,7 +30,7 @@ const Categories = () => {
                 <h1 className="text-3xl lg:text-4xl font-semibold self-start">
                 True Wireless Headphone
                 </h1>
-                <h2 className="text-xl font-medium self-start">
+                <h2 className="text-lg font-medium self-start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nunc nec libero ultrices.
                 </h2>
                 <h3 className="text-2xl font-semibold self-start">{`99$`}</h3>
@@ -41,12 +41,12 @@ const Categories = () => {
                   <FaStar className="transition-transform transform hover:scale-110 rating"/>
                   <FaStarHalf className="transition-transform transform hover:scale-110 rating"/>
                 </div>
-                <Link href="" className="px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btnbuy">
+                <Link href="" className="px-5 py-2 font-medium text-lg rounded-lg border-0 self-start transition-transform transform hover:scale-110 btnbuy">
                   Buy Now
                 </Link>
               </div>
             </div>
-          <Link href="/store" className="px-5 py-2 font-semibold text-xl rounded-lg border-0 text-center transition-transform transform hover:scale-110 btncat">
+          <Link href="/store" className="px-5 py-2 font-medium text-lg rounded-lg border-0 text-center transition-transform transform hover:scale-110 btncat">
                   View More
                 </Link>
       </div>

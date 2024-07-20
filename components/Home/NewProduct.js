@@ -9,10 +9,10 @@ const NewProduct = () => {
           <h1 className='text-3xl lg:text-4xl font-semibold self-start'>
             The Latest Headphones With <br/> The Latest Technology
           </h1>
-          <h2 className='text-xl font-medium self-start'>
+          <h2 className='text-lg font-medium self-start'>
             The latest product that we have is a headphone with the latest technology that can make you comfortable listening to music
           </h2>
-          <button className='px-5 py-2 font-semibold text-xl rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn'>
+          <button className='px-5 py-2 font-medium text-lg rounded-lg border-0 self-start transition-transform transform hover:scale-110 btn'>
             View Specifications
           </button>
         </div>
